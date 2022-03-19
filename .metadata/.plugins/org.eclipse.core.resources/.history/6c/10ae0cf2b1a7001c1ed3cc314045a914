@@ -1,0 +1,57 @@
+package com.apiwhatsapp.enviadores;
+
+import com.infobip.ApiClient;
+import com.infobip.ApiException;
+import com.infobip.api.SendWhatsAppApi;
+import com.infobip.model.*;
+
+public class EnviaTemplateMensagem {
+	
+	 private static final String BASE_URL = "https://6j689r.api.infobip.com";
+	    private static final String API_KEY = "b17f6baa0d1004c80c91d5a15f79084a-d6647be1-cff3-43e4-b40b-c023b3cc825c";
+
+	    private static final String SENDER = "447860099299";
+	    private static final String RECIPIENT = "5551985056343";
+
+	    public static void main(String[] args) {
+	        ApiClient client = initApiClient();
+
+	        SendWhatsAppApi whatsAppApi = new SendWhatsAppApi(client);
+
+	        WhatsAppMessage message = new WhatsAppMessage()
+	                .from(SENDER)
+	                .to(RECIPIENT)
+	                .content(new WhatsAppTemplateContent()
+	                        .language("pt")
+	                        .templateName("welcome_multiple_languages")
+	                        .templateData(
+	                                new WhatsAppTemplateDataContent()
+	                                        .body(new WhatsAppTemplateBodyContent()
+	                                                .addPlaceholdersItem("Vinícius Lima da Silva")
+	                                        )
+	                        )
+	                );
+
+	        WhatsAppBulkMessage bulkMessage = new WhatsAppBulkMessage()
+	                .addMessagesItem(message);
+
+	        try {
+	            WhatsAppBulkMessageInfo whatsAppBulkMessageInfo = whatsAppApi.sendWhatsAppTemplateMessage(bulkMessage);
+	            System.out.println("Response body: " + whatsAppBulkMessageInfo);
+	        } catch (ApiException e) {
+	            System.out.println("HTTP status code: " + e.getCode());
+	            System.out.println("Response body: " + e.getResponseBody());
+	        }
+	    }
+
+	    private static ApiClient initApiClient() {
+	        ApiClient client = new ApiClient();
+
+	        client.setApiKeyPrefix("App");
+	        client.setApiKey(API_KEY);
+	        client.setBasePath(BASE_URL);
+
+	        return client;
+	    }
+
+}

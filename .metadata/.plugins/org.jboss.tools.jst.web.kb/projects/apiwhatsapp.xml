@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/arquillian/core/arquillian-core-impl-base/1.6.0.Final/arquillian-core-impl-base-1.6.0.Final.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.2.6/shrinkwrap-impl-base-1.2.6.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/arquillian/container/arquillian-container-spi/1.6.0.Final/arquillian-container-spi-1.6.0.Final.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.10/kotlin-stdlib-common-1.4.10.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/arquillian/core/arquillian-core-api/1.6.0.Final/arquillian-core-api-1.6.0.Final.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/io/gsonfire/gson-fire/1.8.5/gson-fire-1.8.5.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/com/squareup/okio/okio/2.9.0/okio-2.9.0.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/arquillian/config/arquillian-config-impl-base/1.6.0.Final/arquillian-config-impl-base-1.6.0.Final.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/arquillian/core/arquillian-core-spi/1.6.0.Final/arquillian-core-spi-1.6.0.Final.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/jakarta/enterprise/jakarta.enterprise.cdi-api/2.0.2/jakarta.enterprise.cdi-api-2.0.2.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.6.0.Final/arquillian-protocol-servlet-1.6.0.Final.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/arquillian/container/arquillian-container-impl-base/1.6.0.Final/arquillian-container-impl-base-1.6.0.Final.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.4.10/kotlin-stdlib-1.4.10.jar"/>
+  <path value="/apiwhatsapp/src/main/webapp/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="apiwhatsapp"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-api/1.2.6/shrinkwrap-api-1.2.6.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/logging/jboss-logging/3.4.2.Final/jboss-logging-3.4.2.Final.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/com/infobip/infobip-api-java-client/3.2.0/infobip-api-java-client-3.2.0.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/apache/oltu/oauth2/org.apache.oltu.oauth2.client/1.0.1/org.apache.oltu.oauth2.client-1.0.1.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/hibernate/validator/hibernate-validator/6.0.22.Final/hibernate-validator-6.0.22.Final.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_2.1_spec/2.0.2.Final/jboss-jaxrs-api_2.1_spec-2.0.2.Final.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/com/squareup/okhttp3/logging-interceptor/3.14.9/logging-interceptor-3.14.9.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/json/json/20140107/json-20140107.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/arquillian/junit/arquillian-junit-core/1.6.0.Final/arquillian-junit-core-1.6.0.Final.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/spec/javax/faces/jboss-jsf-api_2.3_spec/3.1.0.SP01/jboss-jsf-api_2.3_spec-3.1.0.SP01.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/arquillian/test/arquillian-test-impl-base/1.6.0.Final/arquillian-test-impl-base-1.6.0.Final.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/arquillian/junit/arquillian-junit-container/1.6.0.Final/arquillian-junit-container-1.6.0.Final.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/arquillian/config/arquillian-config-api/1.6.0.Final/arquillian-config-api-1.6.0.Final.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/arquillian/config/arquillian-config-spi/1.6.0.Final/arquillian-config-spi-1.6.0.Final.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/com/squareup/okhttp3/okhttp/4.10.0-RC1/okhttp-4.10.0-RC1.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-spi/2.0.0/shrinkwrap-descriptors-spi-2.0.0.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/arquillian/test/arquillian-test-api/1.6.0.Final/arquillian-test-api-1.6.0.Final.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-spi/1.6.0.Final/arquillian-container-test-spi-1.6.0.Final.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-spi/1.2.6/shrinkwrap-spi-1.2.6.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/arquillian/test/arquillian-test-spi/1.6.0.Final/arquillian-test-spi-1.6.0.Final.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-api-base/2.0.0/shrinkwrap-descriptors-api-base-2.0.0.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/jakarta/inject/jakarta.inject-api/1.0.5/jakarta.inject-api-1.0.5.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.3_spec/2.0.0.Final/jboss-transaction-api_1.3_spec-2.0.0.Final.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/spec/javax/ejb/jboss-ejb-api_3.2_spec/2.0.0.Final/jboss-ejb-api_3.2_spec-2.0.0.Final.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/spec/javax/servlet/jboss-servlet-api_4.0_spec/2.0.0.Final/jboss-servlet-api_4.0_spec-2.0.0.Final.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/apache/oltu/oauth2/org.apache.oltu.oauth2.common/1.0.1/org.apache.oltu.oauth2.common-1.0.1.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.6.0.Final/arquillian-container-test-impl-base-1.6.0.Final.jar"/>
+  <path value="C:/Users/vinicius.lima/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-api/1.6.0.Final/arquillian-container-test-api-1.6.0.Final.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core"/>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="20" name="%0" offset="3823" path="%1"/>
+   <linked-el length="26" name="%2" offset="7351" path="%1"/>
+   <linked-el length="21" name="%3" offset="7119" path="%1"/>
+   <linked-el length="21" name="%4" offset="7119" path="%1"/>
+   <linked-el length="31" name="%5" offset="8040" path="%1"/>
+   <linked-el length="26" name="%5" offset="7351" path="%1"/>
+   <linked-el length="26" name="%5" offset="10182" path="%1"/>
+   <linked-el length="21" name="%5" offset="7617" path="%1"/>
+   <linked-el length="26" name="%5" offset="9041" path="%1"/>
+   <linked-el length="20" name="%5" offset="3823" path="%1"/>
+   <linked-el length="26" name="%6" offset="7351" path="%1"/>
+   <linked-el length="31" name="%7" offset="8040" path="%1"/>
+   <linked-el length="31" name="%8" offset="8040" path="%1"/>
+   <linked-el length="21" name="%9" offset="7617" path="%1"/>
+   <linked-el length="31" name="%10" offset="8040" path="%1"/>
+   <linked-el length="20" name="%11" offset="3823" path="%1"/>
+   <linked-el length="21" name="%12" offset="7617" path="%1"/>
+   <linked-el length="26" name="%13" offset="10182" path="%1"/>
+   <linked-el length="26" name="%13" offset="9041" path="%1"/>
+   <linked-el length="26" name="%14" offset="10182" path="%1"/>
+   <linked-el length="26" name="%14" offset="9041" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="version.jboss.bom" value="%0"/>
+  <alias path="version.compiler" value="%2"/>
+  <alias path="project.artifactId" value="%3"/>
+  <alias path="project" value="%4"/>
+  <alias path="version" value="%5"/>
+  <alias path="version.compiler.plugin" value="%6"/>
+  <alias path="version.wildfly.maven.plugin" value="%7"/>
+  <alias path="version.wildfly.maven" value="%8"/>
+  <alias path="/apiwhatsapp/pom.xml" value="%1"/>
+  <alias path="version.war" value="%9"/>
+  <alias path="version.wildfly" value="%10"/>
+  <alias path="version.jboss" value="%11"/>
+  <alias path="version.war.plugin" value="%12"/>
+  <alias path="version.failsafe" value="%13"/>
+  <alias path="version.failsafe.plugin" value="%14"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>
